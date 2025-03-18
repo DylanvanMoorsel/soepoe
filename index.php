@@ -1,19 +1,18 @@
-<?php
+<!DOCTYPE html>
+<html>
 
-include('dbcalls/conn.php')
+<head>
+    <link rel="stylesheet" href="assets/css/css.css">
+    <title>sOEPOE</title>
 
-?>
-<form action="dbcalls/create.php" method="post">
-    <input type="text" name="productnaam" />
-    
-    <select name="soep">
-<option value="groenten">groenten</option>
-<option value="tomaat">tomaat</option>
-<option value="chinese tomaten">chinese tomaten</option>
+</head>
 
-<input type="checkbox" name="check" />
-<input type="number" name="number" />
-    </select>
-    <input type="submit" />
+<body>
+    <section class="select-menu">
 
-</form>
+        <div class="soepoe">
+            <img src="assets/img/soep-header.png" alt="soeplogo" width="100%" height="90%">
+        </div>
+    </section>
+</body>
+</html
