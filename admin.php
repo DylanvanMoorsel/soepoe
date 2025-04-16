@@ -33,6 +33,8 @@ if(isset($_SESSION['username']))
                 <input type="text" name="prijs" id="1">
                 <label for="">typ hier je imagelocatie in:</label>
                 <input type="text" name="imagelocation" id="1">
+                <label for="">typ hier je beschrijving in:</label>
+                <input type="text" name="beschrijving" id="1">
 
                 <input type="submit" value="submit">
             </form>
@@ -56,6 +58,7 @@ if(isset($_SESSION['username']))
                     <input type="text" name="productnaam" id="" value="<?php echo $value['Productnaam']; ?>">
                     <input type="text" name="Prijs" id="" value="<?php echo $value['Prijs']; ?>">
                     <input type="text" name="img" id="" value="<?php echo $value['img']; ?>">
+                    <input type="text" name="beschrijving" id="" value="<?php echo $value['beschrijving']; ?>">
                     <button type="submit">Update</button>
                 </form>
                 <?php
